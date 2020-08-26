@@ -10,7 +10,7 @@
 		1F76FF7924F6A81700E3BCF4 /* SentimentAnalyzer.mlproj in Resources */ = {isa = PBXBuildFile; fileRef = 1F76FF7824F6A81700E3BCF4 /* SentimentAnalyzer.mlproj */; };
 		1F76FF8D24F6EFFE00E3BCF4 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F76FF8324F6EF8D00E3BCF4 /* SwifteriOS.framework */; };
 		1F76FF8E24F6EFFE00E3BCF4 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F76FF8324F6EF8D00E3BCF4 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1F76FF9124F7178400E3BCF4 /* SecretKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F76FF9024F7178400E3BCF4 /* SecretKeys.swift */; };
+		1F76FF9324F719B300E3BCF4 /* Keys.secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F76FF9224F719B300E3BCF4 /* Keys.secrets.plist */; };
 		AD9EC65020FE2EF4002AE9BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EC64F20FE2EF4002AE9BF /* AppDelegate.swift */; };
 		AD9EC65220FE2EF4002AE9BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EC65120FE2EF4002AE9BF /* ViewController.swift */; };
 		AD9EC65520FE2EF4002AE9BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9EC65320FE2EF4002AE9BF /* Main.storyboard */; };
@@ -72,9 +72,9 @@
 
 /* Begin PBXFileReference section */
 		1F28D0A624F5B64100098B4D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F76FF7824F6A81700E3BCF4 /* SentimentAnalyzer.mlproj */ = {isa = PBXFileReference; lastKnownFileType = file; path = SentimentAnalyzer.mlproj; sourceTree = SOURCE_ROOT; };
+		1F76FF7824F6A81700E3BCF4 /* SentimentAnalyzer.mlproj */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SentimentAnalyzer.mlproj; sourceTree = SOURCE_ROOT; };
 		1F76FF7A24F6EF8D00E3BCF4 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
-		1F76FF9024F7178400E3BCF4 /* SecretKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKeys.swift; sourceTree = "<group>"; };
+		1F76FF9224F719B300E3BCF4 /* Keys.secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Keys.secrets.plist; sourceTree = "<group>"; };
 		AD9EC64C20FE2EF4002AE9BF /* TweetSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9EC64F20FE2EF4002AE9BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD9EC65120FE2EF4002AE9BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 				AD9EC65820FE2EF7002AE9BF /* LaunchScreen.storyboard */,
 				1F28D0A624F5B64100098B4D /* Info.plist */,
 				1F76FF7824F6A81700E3BCF4 /* SentimentAnalyzer.mlproj */,
-				1F76FF9024F7178400E3BCF4 /* SecretKeys.swift */,
+				1F76FF9224F719B300E3BCF4 /* Keys.secrets.plist */,
 			);
 			path = TweetSense;
 			sourceTree = "<group>";
@@ -252,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD9EC65A20FE2EF7002AE9BF /* LaunchScreen.storyboard in Resources */,
+				1F76FF9324F719B300E3BCF4 /* Keys.secrets.plist in Resources */,
 				AD9EC65720FE2EF7002AE9BF /* Assets.xcassets in Resources */,
 				AD9EC65520FE2EF4002AE9BF /* Main.storyboard in Resources */,
 				1F76FF7924F6A81700E3BCF4 /* SentimentAnalyzer.mlproj in Resources */,
@@ -267,7 +268,6 @@
 			files = (
 				AD9EC65220FE2EF4002AE9BF /* ViewController.swift in Sources */,
 				AD9EC65020FE2EF4002AE9BF /* AppDelegate.swift in Sources */,
-				1F76FF9124F7178400E3BCF4 /* SecretKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
